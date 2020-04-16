@@ -19,9 +19,9 @@
     "prefer-stable": true,
     "require": {
         "php" : "~7.1",
-        "getpop/meta": "~0.1",
-        "getpop/comments": "~0.1",
-        "getpop/migrate-commentmeta": "~0.1"
+        "getpop/meta": "dev-master",
+        "getpop/comments": "dev-master",
+        "getpop/migrate-commentmeta": "dev-master"
     },
     "require-dev": {
         "phpstan/phpstan": "^0.12",
