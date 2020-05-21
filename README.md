@@ -20,12 +20,13 @@ Via Composer
 composer require getpop/commentmeta
 ```
 
-<!--
 ## Usage
 
+Initialize the component:
+
 ``` php
+\PoP\CommentMeta\Component::initialize();
 ```
--->
 
 ## Standards
 
