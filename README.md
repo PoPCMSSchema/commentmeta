@@ -25,7 +25,9 @@ composer require getpop/commentmeta
 Initialize the component:
 
 ``` php
-\PoP\CommentMeta\Component::initialize();
+\PoP\Root\ComponentLoader::initializeComponents([
+    \PoP\CommentMeta\Component::class,
+]);
 ```
 
 ## Standards
