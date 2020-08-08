@@ -17,7 +17,7 @@ Adds support for comment meta
 Via Composer
 
 ``` bash
-composer require getpop/commentmeta
+composer require pop-schema/commentmeta
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Initialize the component:
 
 ``` php
 \PoP\Root\ComponentLoader::initializeComponents([
-    \PoP\CommentMeta\Component::class,
+    \PoPSchema\CommentMeta\Component::class,
 ]);
 ```
 
@@ -75,17 +75,17 @@ If you discover any security related issues, please email leo@getpop.org instead
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/getpop/commentmeta.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/pop-schema/commentmeta.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/getpop/commentmeta/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/getpop/commentmeta.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/getpop/commentmeta.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/getpop/commentmeta.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/pop-schema/commentmeta/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/pop-schema/commentmeta.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/pop-schema/commentmeta.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/pop-schema/commentmeta.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/getpop/commentmeta
-[link-travis]: https://travis-ci.org/getpop/commentmeta
-[link-scrutinizer]: https://scrutinizer-ci.com/g/getpop/commentmeta/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/getpop/commentmeta
-[link-downloads]: https://packagist.org/packages/getpop/commentmeta
+[link-packagist]: https://packagist.org/packages/pop-schema/commentmeta
+[link-travis]: https://travis-ci.org/pop-schema/commentmeta
+[link-scrutinizer]: https://scrutinizer-ci.com/g/pop-schema/commentmeta/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/pop-schema/commentmeta
+[link-downloads]: https://packagist.org/packages/pop-schema/commentmeta
 [link-author]: https://github.com/leoloso
 [link-contributors]: ../../contributors

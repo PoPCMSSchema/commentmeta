@@ -1,5 +1,5 @@
 {
-    "name": "getpop/commentmeta",
+    "name": "pop-schema/commentmeta",
     "type": "library",
     "description": "Adds support for comment meta",
     "keywords": [
@@ -19,9 +19,9 @@
     "prefer-stable": true,
     "require": {
         "php": "~7.2",
-        "getpop/meta": "dev-master",
-        "getpop/comments": "dev-master",
-        "getpop/migrate-commentmeta": "dev-master"
+        "pop-schema/meta": "dev-master",
+        "pop-schema/comments": "dev-master",
+        "pop-schema/migrate-commentmeta": "dev-master"
     },
     "require-dev": {
         "phpstan/phpstan": "^0.12",
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoP\\CommentMeta\\": "src"
+            "PoPSchema\\CommentMeta\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoP\\CommentMeta\\": "tests"
+            "PoPSchema\\CommentMeta\\": "tests"
         }
     },
     "scripts": {
