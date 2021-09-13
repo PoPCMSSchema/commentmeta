@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace PoPSchema\CommentMeta\FieldResolvers;
+namespace PoPSchema\CommentMeta\FieldResolvers\ObjectType;
 
-use PoP\ComponentModel\FieldResolvers\AbstractDBDataFieldResolver;
+use PoP\ComponentModel\FieldResolvers\ObjectType\AbstractDBDataFieldResolver;
 use PoP\ComponentModel\TypeResolvers\ObjectType\ObjectTypeResolverInterface;
 use PoPSchema\CommentMeta\Facades\CommentMetaTypeAPIFacade;
 use PoPSchema\Comments\TypeResolvers\ObjectType\CommentTypeResolver;
-use PoPSchema\Meta\InterfaceTypeFieldResolvers\WithMetaInterfaceTypeFieldResolver;
+use PoPSchema\Meta\FieldResolvers\InterfaceType\WithMetaInterfaceTypeFieldResolver;
 
 class CommentFieldResolver extends AbstractDBDataFieldResolver
 {
